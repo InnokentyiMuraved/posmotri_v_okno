@@ -287,6 +287,10 @@ fieldset {
 	padding: 6px 74px;
 }
 
+.content__card-link_current {
+	background: #545050;
+}
+
 .content__card-link:active {
 	background: #545050;
 }
