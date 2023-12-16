@@ -48,7 +48,7 @@ a {
 .content {
 	display: flex;
 	gap: 30px;
-	margin: 0 33px;
+	margin: 0 25px;
   inline-size: 100%;
 }
 
@@ -75,6 +75,9 @@ a {
 	line-height: 100%;
 	text-transform: uppercase;
 	margin-bottom: 6px;
+	text-overflow: ellipsis; 
+	white-space: nowrap; 
+	overflow: hidden;
 	max-width: 200px;
 }
 
@@ -237,7 +240,7 @@ a {
 	font-weight: 700;
 	line-height: normal;
 	background-color: transparent;
-	padding: 6px 146px;
+	padding: 6px 144px;
 	cursor: pointer;
 	border: 1px solid #fff;
 }
@@ -310,5 +313,5 @@ a:focus-visible {
 
 a:hover {
 	text-decoration: underline #fff;
-	text-underline-offset: 5px;
+	text-underline-offset: 2px;
 }
