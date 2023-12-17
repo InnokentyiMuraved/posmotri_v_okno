@@ -48,7 +48,7 @@ a {
 .content {
 	display: flex;
 	gap: 30px;
-	margin: 0 25px;
+	margin: 0 30px;
   inline-size: 100%;
 }
 
